@@ -1,3 +1,4 @@
+JS用語
 
 use strict:  scriptタグの中に文字列で記載することでブラウザが厳密なエラーチェックをしてくれる 。
 
@@ -5,11 +6,10 @@ use strict:  scriptタグの中に文字列で記載することでブラウザ�
 
 createElement():  HTML要素を生成
 
-
 appendChild():  特定の親ノードの子ノードリストの末尾にノードを追加する。追加しようとしたノードが既に存在していたら、それは現在の親ノードから除かれ、新しい親ノードに追加される
 
 textContent:  Nodeのプロパティで、ノードおよびその子孫のテキストの内容を表す。
-: innerTextとの違い:  	•	textContent は、 <script> と <style> 要素を含む、すべての要素の内容を取得する。一方、 innerText は「人間が読める」要素のみを示す。
+: innerTextとの違い:  	•textContent は、 <script> と <style> 要素を含む、すべての要素の内容を取得する。一方、 innerText は「人間が読める」要素のみを示す。
 
 Math.floor:  指定された数値以下の最大の整数を表す数値。
 
