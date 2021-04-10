@@ -56,5 +56,8 @@ splice:  配列要素でインデックスの削除・追加ができる
                              結果  score[10, 20, other[30, 40]]
                 
 
-              
+forEach: 配列を順番に展開できる forEach(要素の値,要素のインデックス)
+        例  scores.forEach((score, index) => {
+  console.log(`Score${index}: ${score}`)
+})               
 
