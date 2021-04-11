@@ -57,7 +57,18 @@ splice:  配列要素でインデックスの削除・追加ができる
                 
 
 forEach: 配列を順番に展開できる forEach(要素の値,要素のインデックス)
-        例  scores.forEach((score, index) => {
+        例 const scores = [60, 90 , 30, 70] 
+        scores.forEach((score, index) => {
   console.log(`Score${index}: ${score}`)
 })               
 
+map: 配列の中身を加工できる。
+     forEachは展開していくが、mapは配列のまま要素を加工して返す事ができる
+     例 const scores = [60, 90 , 30, 70]
+     const updateScore = scores.map((score) => {
+  return score + 30;
+})
+console.log(updateScore);
+結果[90, 120, 60, 100]
+
+filter: 条件に合うものを取得し、別の配列を作成する
