@@ -47,5 +47,7 @@
   }
 
   document.getElementById('add').addEventListener('click', addText);
+
+  
   
 }
