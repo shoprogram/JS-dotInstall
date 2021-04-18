@@ -48,6 +48,13 @@
 
   document.getElementById('add').addEventListener('click', addText);
 
-  
+  document.getElementById('copy').addEventListener('click', ()=>{
+    const item1 = document.querySelectorAll('li')[0];
+    const cloneItem = item1.cloneNode(true); 
+
+    const ul = document.querySelector('ul');
+    const item3 = document.querySelectorAll('li')[2];
+    ul.insertBefore(copy, item2);
+  }) 
   
 }
